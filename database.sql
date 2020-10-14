@@ -7,5 +7,5 @@ CREATE TABLE "artists" (
 CREATE TABLE "songs" (
     "id" SERIAL PRIMARY KEY,
     "artist_name" varchar(80) not null,
-    "year_born" date
+    "song_name" varchar(80) not null
 );
