@@ -65,9 +65,8 @@ function getSongData() {
         for (let song of listOfSongs) {
             // Append each song to the table
             $('#songTableBody').append(`<tr>
-                                            <td>${song.title}</td>
-                                            <td>${song.length}</td>
-                                            <td>${song.date_released}</td>
+                                            <td>${song.artist_name}</td>
+                                            <td>${song.song_name}</td>
                                           </tr>`);
         }
     }).catch(function (error) {
